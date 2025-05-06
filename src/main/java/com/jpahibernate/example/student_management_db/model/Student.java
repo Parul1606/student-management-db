@@ -28,6 +28,7 @@ public class Student {
     @Column(name="grade", nullable = false)
     private String grade;
 
+<<<<<<< HEAD
     @Column(name="mobile", nullable = false)
     private String mobile;
 
@@ -86,4 +87,9 @@ public class Student {
     public void setMobile(String mobile) {
         this.mobile = mobile;
     }
+=======
+    @Column(name="mobileNo", nullable = false)
+    private int mobileNo;
+
+>>>>>>> origin/main
 }
